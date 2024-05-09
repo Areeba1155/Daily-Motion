@@ -5,35 +5,104 @@
 }
 
 body{
-    background-color: #F0F2F5;
-}
-
-.logo{
-    color: blue;
-    font-size: 33px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 44px;
-}
-
-.form{
-    width: 30%;
-    height: 60vh;
-    margin-top: 20px;
-    margin-left: 340px;
     background-color: white;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.07);
-    border-radius: 5PX;
 }
 
-.header p{
+form {
+    display: flex;
+}
+
+nav {
+    width: 100%;
+    height: 12vh;
+    background-color: white;
+    display: flex;
+    padding: 10px 8px;
+    position: fixed;
+}
+
+nav h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+    border: 1px solid #dadada;
+    color: #232323;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    padding-right: 240px;
+    background-color: white;
+    margin: 6px 120px;
+    margin-left: 130px;
+}
+
+.search>input {
+    background-color: white;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.btn-1{
+    margin: 6px 8px;
+}
+
+.btn-1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-1 button {
+    padding: 10px 18px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn-2 {
+    margin: 6px 8px;
+}
+
+.btn-2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-2 button {
+    padding: 10px 18px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+.log-in-form{
+    padding-top: 110px;
+    padding-left: 450px;
+}
+
+.box{
+    width: 40%;
+    height: 75vh;
+    border: 1px solid rgb(214, 193, 193);
+    border-radius: 5px;
+}
+
+.header h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
 }
 
-.form input{
+.box input{
     width: 90%;
     height: 36px;
     margin-left: 13px;
@@ -42,52 +111,47 @@ body{
     border-radius: 5px;
 }
 
-.form button{
+.box a{
+    font-size: 16px;
+    margin-left: 14px;
+}
+
+.box button{
     width: 90%;
     height: 36px;
-    margin-left: 13px;
     padding-left: 10px;
-    margin-bottom: 13px;
-    background-color: blue;
+    margin: 20px 0px 13px 13px;
+    background-color: gray;
     color: white;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
 }
 
-.footer a{
-    font-size: 10px;
+.sign-up-link{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.sign-up-link p{
+    font-size: 16px;
+    margin-left: 14px;
+}
+
+.google-link{
+    text-align: center;
+}
+
+hr{
+    color: rgb(214, 193, 193);
+}
+.google-link p{
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+.google-link a{
+    font-size: 20px;
     text-decoration: none;
-    margin-left: 40px;
-}
-
-.box{
-    width: 180px;
-    height: 180px;
-    background-color: grey;
-    padding: 8px;
-    white-space: inherit;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    margin: 18px 0 0 0;
-
-}
-
-.box span{
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.box h2{
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.box h3{
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.box p{
-    font-size: 16px;
-    font-weight: 400;
 }
