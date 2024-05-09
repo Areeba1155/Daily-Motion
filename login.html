@@ -5,25 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
     <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="logo">
-            <h2>Facebook</h2>
-        </div>
-        <div class="form">
+        <nav>
+            <h2>DailyMotion</h2>
+            <form>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <span class="btn-1"><button><i class="bi bi-arrow-bar-right"></i><a href="login.html">Login</a>
+                    </button></span>
+                <span class="btn-2"><button><i class="bi bi-person-rolodex"></i><a href="#">Signup</a></button></span>
+            </form>
+        </nav>
+    </div>
+    <div class="log-in-form">
+        <div class="box">
             <div class="header">
-                <p>log in to facebook</p>
+                <h3>Log in</h3>
             </div>
-            <input type="text" placeholder="Enter Your Name"><br><br>
-            <input type="text" placeholder="Enter Your Age"><br><br>
-            <input type="text" placeholder="Enter Your Class"><br><br>
-            <button>Register Student Record</button>
-            <div class="footer">
-               <a href="#">Forgotten Password?</a>
-               <a href="#">Sign up to facebook</a>
+            <input type="email" name="email" placeholder="Email address"><br><br>
+            <input type="password" name="password" placeholder="Password"><br><br>
+            <a href="#">Forgot Password?</a>
+            <button>Log in</button>
+            <div class="sign-up-link">
+                <p>No account yet?</p>
+                <a href="#">Sign up</a>
+            </div>
+            <div class="google-link">
+                <hr>
+                <p>Or</p>
+                <a href="https://www.google.com/">Sign in with Google</a>
             </div>
         </div>
     </div>
